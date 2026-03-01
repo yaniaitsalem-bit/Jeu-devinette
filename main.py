@@ -1,15 +1,29 @@
-**Commit 2 — Création du point d'entrée `main.py`**
+Maintenant, intégrons le menu dans `main.py` et mergeons :
 Action: file_editor create /app/projet_rattrapage/main.py --file-text "\"\"\"
 Jeu de Devinette - Point d'entree principal
 \"\"\"
 
+from menu import afficher_menu, lire_choix
+
 
 def main():
-    print(\"=== Jeu de Devinette ===\")
-    print(\"Bienvenue ! Le jeu est en construction...\")
+    \"\"\"Boucle principale du jeu.\"\"\"
+    while True:
+        afficher_menu()
+        choix = lire_choix()
+
+        if choix == \"1\":
+            print(\"\n[Lancement d'une nouvelle partie...]\")
+        elif choix == \"2\":
+            print(\"\n[Affichage des scores...]\")
+        elif choix == \"3\":
+            print(\"\nMerci d'avoir joue ! A bientot.\")
+            break
+        else:
+            print(\"\nChoix invalide, veuillez reessayer.\")
 
 
 if __name__ == \"__main__\":
     main()
 "
-Observation: Create successful: /app/projet_rattrapage/main.py
+Observation: Overwrite successful: /app/projet_rattrapage/main.py
