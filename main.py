@@ -1,8 +1,3 @@
-Maintenant, intégrons le menu dans `main.py` et mergeons :
-Action: file_editor create /app/projet_rattrapage/main.py --file-text "\"\"\"
-Jeu de Devinette - Point d'entree principal
-\"\"\"
-
 from menu import afficher_menu, lire_choix
 
 
@@ -26,4 +21,4 @@ def main():
 if __name__ == \"__main__\":
     main()
 "
-Observation: Overwrite successful: /app/projet_rattrapage/main.py
+
