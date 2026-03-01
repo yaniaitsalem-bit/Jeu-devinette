@@ -1,5 +1,6 @@
 from menu import afficher_menu, lire_choix
 from jeu import jouer_partie
+from scores import sauvegarder_score, afficher_scores
 from utils import demander_rejouer
 
 
@@ -12,11 +13,14 @@ def main():
         choix = lire_choix()
 
         if choix == \"1\":
+            nom = input(\"Entrez votre nom : \")
             tentatives, difficulte = jouer_partie()
+            sauvegarder_score(nom, tentatives, difficulte)
             while demander_rejouer():
                 tentatives, difficulte = jouer_partie()
+                sauvegarder_score(nom, tentatives, difficulte)
         elif choix == \"2\":
-            print(\"\n[Affichage des scores...]\")
+            afficher_scores()
         elif choix == \"3\":
             print(\"\nMerci d'avoir joue ! A bientot.\")
             break
@@ -27,4 +31,3 @@ def main():
 if __name__ == \"__main__\":
     main()
 "
-
