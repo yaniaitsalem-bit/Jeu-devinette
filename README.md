@@ -33,5 +33,6 @@ python main.py
 
 ## Auteur
 Yani Ait Salem — Rattrapage Outils de gestion en informatique 2025-2026
-```
+
+## Trello
 Lien du trello ----> https://trello.com/c/PeFvPiWa/14-module-utilitaire
