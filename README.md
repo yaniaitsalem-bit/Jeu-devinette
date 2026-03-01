@@ -1,5 +1,5 @@
 
-Action: file_editor create /app/projet_rattrapage/README.md --file-text "# Jeu de Devinette 🎲
+ Jeu de Devinette 🎲
 
 ## Description
 Mini-jeu en Python où le joueur doit deviner un nombre secret choisi aléatoirement par l'ordinateur. Le jeu propose plusieurs niveaux de difficulté et un système de scores.
