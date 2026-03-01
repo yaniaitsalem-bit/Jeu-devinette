@@ -1,5 +1,4 @@
-
- Jeu de Devinette 🎲
+<h1> Jeu de Devinette 🎲 <h1/>
 
 ## Description
 Mini-jeu en Python où le joueur doit deviner un nombre secret choisi aléatoirement par l'ordinateur. Le jeu propose plusieurs niveaux de difficulté et un système de scores.
@@ -35,4 +34,4 @@ python main.py
 ## Auteur
 Yani Ait Salem — Rattrapage Outils de gestion en informatique 2025-2026
 "
-Observation: Create successful: /app/projet_rattrapage/README.md
+Lien du trello ----> https://trello.com/c/PeFvPiWa/14-module-utilitaire
