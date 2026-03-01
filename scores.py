@@ -38,4 +38,3 @@ def afficher_scores():
 
     print(\"=============================\")
 "
-Observation: Create successful: /app/projet_rattrapage/scores.py
